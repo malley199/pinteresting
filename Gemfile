@@ -13,6 +13,7 @@ gem 'bootstrap-sass'
 
 group :development, :test do
 	gem 'sqlite3'
+	gem 'spring'
 end
 
 group :production do
@@ -24,10 +25,6 @@ end
 group :doc do
 	gem 'sdoc', '~> 0.4.0',          group: :doc
 end 
-
-
-	gem 'spring',        group: :development
-end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
